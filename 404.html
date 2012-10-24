@@ -1,74 +1,104 @@
 
-<!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-	<meta charset="utf-8">
-	
-	<title>404 - File Not Found</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap, from Twitter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-
-	<!-- CSS: implied media=all -->
-	<link rel="stylesheet" href="css/main.css">
-    <link href="css/bootstrap.css" rel="stylesheet">    
-	<script src="js/jquery.min.js"></script>
-        <style>
+    <!-- Le styles -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <style>
       body {
-        padding-top: 50px; /* 60px to make the container go all the way to the bottom of the topbar */
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
       }
+      body > .navbar {
+          font-size: 13px;
+        }
+        
+        /* Change the docs' brand */
+        body > .navbar .brand {
+          padding-right: 0;
+          padding-left: 0;
+          margin-left: 20px;
+          float: right;
+          font-weight: bold;
+          color: #000;
+          text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+          -webkit-transition: all .2s linear;
+             -moz-transition: all .2s linear;
+                  transition: all .2s linear;
+        }
+        body > .navbar .brand:hover {
+          text-decoration: none;
+          text-shadow: 0 1px 0px rgba(255,255,255,.1), 0 0 30px rgba(82, 168, 236, 0.6);
+        }
+        /* Footer
+-------------------------------------------------- */
+
+        .footer {
+          padding: 30px 0;
+          margin-top: 30px;
+          border-top: 1px solid #e5e5e5;
+          background-color: #f5f5f5;
+        }
+        .footer p {
+          margin-bottom: 0;
+          color: #777;
+        }
+        .footer-links {
+          margin: 10px 0;
+        }
+        .footer-links li {
+          display: inline;
+          margin-right: 10px;
+        }
+
+ 
     </style>
-</head>
+    <link href="bootstrap/css/bootstrap-responsive.1css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+
 <body class="body404">
-    <div id="topbar_phone" class="visible-phone">
-        <a href="#" class="btn btn-inverse pull-left" style="margin-left:10px ; margin-top: 5px"><i class="icon-home icon-white"></i></a>
-        <a href="#" class="btn btn-inverse pull-right" style="margin-right:10px ; margin-top: 5px"><i class="icon-plus icon-white"></i></a>
-    </div>
-        
 
- <!-- Navbar
-    ================================================== -->
-    <div class="navbar navbar-fixed-top hidden-phone">
+    <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
-
-        <div class="container"style="height: 40px;">
-    
-        <a class="brand" href="index.htm" id="brand"><img src="img/logo.png" alt="Muba.us" height="34" width="150"/></a>
-            <form class="navbar-search">
-            <div class="input-prepend">
-            
-            <input type="text" class="search-query span3" placeholder="Search">
-             <button class="btn btn-inverse" style="margin: 0"><i class="icon-search icon-white"></i></button>
-            </div>
-            </form>
-
-                <ul class="nav pull-right">
-                    <li class="nav-menu"><a href="post.htm">Create</a></li>
-                    <li class="dropdown nav-menu">
-                        <a href="profile.htm" class="dropdown-toggle" data-toggle="dropdown" style="padding-bottom: 7px;"><img src="https://twimg0-a.akamaihd.net/profile_images/1227331383/avatar_reasonably_small.png" alt="Smiley face" style="padding-right: 7px; height: 24px; width: 24px;">KHOA M. Nguyen<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">Action</a></li>
-                          <li><a href="#">Another action</a></li>
-                          <li><a href="#">Something else here</a></li>
-                          <li class="divider"></li>
-                          <li class="nav-header">Nav header</li>
-                          <li><a href="#">Separated link</a></li>
-                          <li><a href="#">One more separated link</a></li>
-                        </ul>
-                    </li>
-                    
-                </ul>
-       
-        
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand pull-right" href="index.html">MinhkhoaAsia</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="about-me.html">About Me</a></li>
+              <li><a href="why-hire-me.html">Why hire me</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
         </div>
       </div>
     </div>
+
     <div class="container">
-      <div class="row">
+     <div class="row">
         <div class="span12">
                 <div id="error"><div id="pacman"></div>          </div>  
         </div>  
@@ -85,7 +115,7 @@
                         <li>an out-of-date link</li>
                     </ul>
                       <div id="footer small">
-                        ©MuBa.us 2012 - Chan n Khoa with passion.
+                        ©MinhkhoaAsia
                         
                     </div>
                 </div>
@@ -93,41 +123,57 @@
                   
           
       </div>  
-                
-     
-
-
     </div>
-	
-	<script type="text/javascript">
+    <footer class="footer">
+      <div class="container">
+  
+            <ul class="breadcrumb">
+              <li class="active"><a href="index.html">HOME</a><span class="divider">//</span></li>
+              <li><a href="about-me.html">ABOUT ME</a><span class="divider">//</span></li>
+              <li><a href="why-hire-me.html">WHY HIRE ME</a><span class="divider">//</span></li>
+              <li><a href="contact.html">CONTACT</a><span class="divider">//</span></li>
+              <li><a href="credits.html">CREDITS</a></li>
+            <p class="pull-right">Created by MinhkhoaAsia with OREO biscuit and VINAMILK</p>
+          </ul>
+              
+      </div>
+    </footer>
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript">
        $(function(){
-		
-			setInterval(function(){
-				$('#pacman').toggleClass('pacman_eats');
-			}, 300);
-		
-			// speed in milliseconds
-			var scrollSpeed = 20;
-		
-			var bgscroll = '';
-		
-			// set the direction
-			var direction = 'h';
-		
-			// set the default position
-			var current = 0;
-		
-			//Calls the scrolling function repeatedly
-			setInterval(function(){
-		
-				// 1 pixel row at a time
-				current -= 1;
-		
-				// move the background with backgrond-position css properties        
-				$('body').css("backgroundPosition", (direction == 'h') ? current+"px 0" : "0 " + current+"px");
-			}, scrollSpeed); 
-		
-		});
+        
+            setInterval(function(){
+                $('#pacman').toggleClass('pacman_eats');
+            }, 300);
+        
+            // speed in milliseconds
+            var scrollSpeed = 20;
+        
+            var bgscroll = '';
+        
+            // set the direction
+            var direction = 'h';
+        
+            // set the default position
+            var current = 0;
+        
+            //Calls the scrolling function repeatedly
+            setInterval(function(){
+        
+                // 1 pixel row at a time
+                current -= 1;
+        
+                // move the background with backgrond-position css properties        
+                $('body').css("backgroundPosition", (direction == 'h') ? current+"px 0" : "0 " + current+"px");
+            }, scrollSpeed); 
+        
+        });
     </script>
-</body>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  
+
+  </body>
 </html>
+
