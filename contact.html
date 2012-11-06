@@ -106,7 +106,19 @@
 
         <div class="span7 offset1">
             <h1>Contact me</h1>
-            <p class="lead">Before contact me, IDG, please click here</p>
+            <p class="lead">Before contact me, IDG, please <a href="#myModal" role="button" class="btn" data-toggle="modal">click here</a></p>
+            <!-- Modal -->
+			<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			  <div class="modal-header">
+			    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			    
+			  </div>
+			  <div  align="center" class="modal-body">
+			  	<img src="img/thankyou.jpg">
+			    <p>source: dribbble.com</p>
+			  </div>
+
+			</div>
             <form action="https://docs.google.com/spreadsheet/formResponse?formkey=dHh2RUZ4OVpzc0hfT0QzOFVxUi1iVnc6MQ&amp;ifq" method="POST" id="ss-form">
             
             
@@ -156,6 +168,8 @@
             }
             })();
                   </script>
+                  <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=xa-5086e2d928bf3bb3"></script>
+
         </div>
 		<div class="span3">
 			<!-- AddThis Follow BEGIN -->
@@ -179,6 +193,7 @@
               <li class="active"><a href="index.html">ABOUT ME</a><span class="divider">//</span></li>
 
               <li><a href="contact.html">CONTACT</a><span class="divider">//</span></li>
+              <li class="active"><a href="http://blog.minhkhoaasia.com">BLOG</a><span class="divider">//</span></li>
               <li><a href="credits.html">CREDITS</a></li>
             <p class="pull-right">Created by MinhkhoaAsia with OREO biscuit and VINAMILK</p>
           </ul>
@@ -188,8 +203,8 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-
-	<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=xa-5086e2d928bf3bb3"></script>
-
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/js/bootstrap.min.js"></script>
+	
   </body>
 </html>
