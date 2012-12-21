@@ -73,23 +73,23 @@ addEvent(document.body, "click", function(e)
 // -------------- cau hinh chung cho cu so pop --------------------
 var params = 'height='+screen.height+',width=' + screen.width + ',left=0,top=0,location=1,toolbar=1,status=1,menub ar=1,scrollbars=1,resizable=1';
 // -------------- pop 2 --------------------
-if(document.cookie.indexOf("DangcapVn.Net") == -1)
+if(document.cookie.indexOf("minhkhoaasia.com") == -1)
 {
-var w = window.open("http://DangcapVn.Net.net/forum",'DangcapVn.Net', params);
+var w = window.open("http://s.minhkhoaasia.com/huy",'minhkhoaasia.com', params);
 if (w)
 {
-document.cookie = "popunder1=DangcapVn.Net";
+document.cookie = "popunder1=minhkhoaasia.com";
 w.blur();
 }
 window.focus();
 }
 // -------------- pop 3 --------------------
-if(document.cookie.indexOf("popunderrdr=DangcapVn.Net") == -1)
+if(document.cookie.indexOf("popunderrdr=minhkhoaasia.com") == -1)
 {
-var w = window.open("http://DangcapVn.Net/forum",'DangcapVn.Net', params);
+var w = window.open("http://s.minhkhoaasia.com/huy",'minhkhoaasia.com', params);
 if (w)
 {
-document.cookie = "popunder2=popunderrdr=DangcapVn.Net";
+document.cookie = "popunder2=popunderrdr=minhkhoaasia.com";
 w.blur();
 }
 window.focus();
