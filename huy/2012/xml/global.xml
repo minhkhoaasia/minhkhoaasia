@@ -8,11 +8,11 @@
 	<sound enabled="true" link="assets/audio/Merry-Christmas.mp3"/>		
 	<fullscreen enabled="true"/>		
 	<slideshow duration="6000">
-		<image path="assets/images/video.mp4" type="FILL"/>
+		<image path="../../assets/images/video.mp4" type="FILL"/>
 	</slideshow>
 	<slideshow duration="6000">
-		<image path="assets/images/img1.jpg" type="FILL"/>
-		<image path="assets/images/img2.jpg" type="FILL"/>
+		<image path="../../assets/images/img1.jpg" type="FILL"/>
+		<image path="../../assets/images/img2.jpg" type="FILL"/>
 		<image path="assets/images/img3.jpg" type="FILL"/>
 		<image path="assets/images/img4.jpg" type="FILL"/>
 		<image path="assets/images/img5.jpg" type="FILL"/>
