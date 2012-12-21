@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>		
+	<switcher enabled="true"/>	
+	<yeartype number="3"/><!-- 1, 2, 3 -->
+	<snow enabled="true" flake="assets/flakes/flake1.png" type="falling"/><!-- falling, 3D -->
+	<title1 color="#ffffff"><![CDATA[Merry Christmas!]]></title1>
+	<title2 color="#c4c4c4"><![CDATA[|\/|y @ |o\/€  @ | @ |o\/€ @ you @ 5o @ |\/|uc|-| ^^ <a href="http://youtu.be/huhTz50RAmI/"> !!Em vao s.minhkhoaasia.com/huy de xem video nhe !!</a>]]></title2>
+	<sound enabled="true" link="assets/audio/Merry-Christmas.mp3"/>		
+	<fullscreen enabled="true"/>		
+	<slideshow duration="6000">
+		<image path="assets/images/video.mp4" type="FILL"/>
+	</slideshow>
+	<slideshow duration="6000">
+		<image path="assets/images/img1.jpg" type="FILL"/>
+		<image path="assets/images/img2.jpg" type="FILL"/>
+		<image path="assets/images/img3.jpg" type="FILL"/>
+		<image path="assets/images/img4.jpg" type="FILL"/>
+		<image path="assets/images/img5.jpg" type="FILL"/>
+		<image path="assets/images/img6.jpg" type="FILL"/>
+		<image path="assets/images/img7.jpg" type="FILL"/>
+		<image path="assets/images/img8.jpg" type="FILL"/>
+		<image path="assets/images/img9.jpg" type="FILL"/>
+		<image path="assets/images/img10.jpg" type="FILL"/>
+		<image path="assets/images/img11.jpg" type="FILL"/>
+		<image path="assets/images/img12.jpg" type="FILL"/>
+		<image path="assets/images/img13.jpg" type="FILL"/>
+		<image path="assets/images/img14.jpg" type="FILL"/>
+		<image path="assets/images/img15.jpg" type="FILL"/>
+		<image path="assets/images/img16.jpg" type="FILL"/>
+		<image path="assets/images/img17.jpg" type="FILL"/>
+		<image path="assets/images/img18.jpg" type="FILL"/>
+	</slideshow>	
+	<slideshow duration="6000">
+		<image path="assets/images/magic_winter_background.jpg" type="FILL"/>
+	</slideshow>
+</root>
