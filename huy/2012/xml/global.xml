@@ -8,7 +8,7 @@
 	<sound enabled="true" link="assets/audio/Merry-Christmas.mp3"/>		
 	<fullscreen enabled="true"/>		
 	<slideshow duration="6000">
-		<image path="../../assets/images/video.mp4" type="FILL"/>
+		<image path="assets/images/video.mp4" type="FILL"/>
 	</slideshow>
 	<slideshow duration="6000">
 		<image path="assets/images/img1.JPG" type="FILL"/>
