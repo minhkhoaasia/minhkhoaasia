@@ -10,7 +10,7 @@
 	<slideshow duration="6000">
 		<image path="assets/images/video.mp4" type="FILL"/>
 	</slideshow>
-	<slideshow duration="6000">
+	<slideshow duration="1000">
 		<image path="assets/images/img1.JPG" type="FILL"/>
 		<image path="assets/images/img2.JPG" type="FILL"/>
 		<image path="assets/images/img3.JPG" type="FILL"/>
