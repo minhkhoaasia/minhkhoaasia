@@ -4,7 +4,7 @@
 	<yeartype number="3"/><!-- 1, 2, 3 -->
 	<snow enabled="true" flake="assets/flakes/flake1.png" type="falling"/><!-- falling, 3D -->
 	<title1 color="#ffffff"><![CDATA[Merry Christmas!]]></title1>
-	<title2 color="#c4c4c4"><![CDATA[|\/|y @ |o\/€  @ | @ |o\/€ @ you @ 5o @ |\/|uc|-| ^^ <a href="http://youtu.be/huhTz50RAmI/"> !!Clickkk!!!  de xem video nhe !!</a>]]></title2>
+	<title2 color="#c4c4c4"><![CDATA[Happy Birthday heo mup cua tui]]></title2>
 	<sound enabled="true" link="assets/audio/Merry-Christmas.mp3"/>		
 	<fullscreen enabled="true"/>		
 	<slideshow duration="6000">
@@ -15,20 +15,7 @@
 		<image path="assets/images/img2.JPG" type="FILL"/>
 		<image path="assets/images/img3.JPG" type="FILL"/>
 		<image path="assets/images/img4.JPG" type="FILL"/>
-		<image path="assets/images/img5.JPG" type="FILL"/>
-		<image path="assets/images/img6.JPG" type="FILL"/>
-		<image path="assets/images/img7.JPG" type="FILL"/>
-		<image path="assets/images/img8.JPG" type="FILL"/>
-		<image path="assets/images/img9.JPG" type="FILL"/>
-		<image path="assets/images/img10.JPG" type="FILL"/>
-		<image path="assets/images/img11.JPG" type="FILL"/>
-		<image path="assets/images/img12.JPG" type="FILL"/>
-		<image path="assets/images/img13.JPG" type="FILL"/>
-		<image path="assets/images/img14.JPG" type="FILL"/>
-		<image path="assets/images/img15.JPG" type="FILL"/>
-		<image path="assets/images/img16.JPG" type="FILL"/>
-		<image path="assets/images/img17.JPG" type="FILL"/>
-		<image path="assets/images/img18.JPG" type="FILL"/>
+
 	</slideshow>	
 	<slideshow duration="6000">
 		<image path="assets/images/magic_winter_background.JPG" type="FILL"/>
